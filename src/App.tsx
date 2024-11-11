@@ -1,4 +1,12 @@
+import Disciplina from "./Disciplina"
+
 export default function App() {
-  return <h1>Hello, world!</h1>;
+  return (
+    <div>
+      <h1>Ola Mundo!</h1>
+      <Disciplina/>
+    </div>
+
+  )
 }
 
